@@ -81,7 +81,7 @@ const About = () => {
 
                     </div>
                     <div className='w-full md:w-1/2'>
-                        <img src={about2} alt='twomobiles' />
+                        <img src={about2} alt='twomobiles'  />
 
                     </div>
 
