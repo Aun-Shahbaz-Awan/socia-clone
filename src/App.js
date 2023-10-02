@@ -5,6 +5,8 @@ import WhitePaper from "./components/WhitePaper";
 import Socia from "./components/Socia";
 import TokenDetails from "./components/TokenDetails";
 import Footer from "./components/Footer";
+import Timeline from "./components/Timeline";
+import Tokenomics from "./components/Tokenomics";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <WhitePaper />
       <Socia />
       <TokenDetails />
+      <Timeline />
+      <Tokenomics />
       <Footer />
     </div>
   );

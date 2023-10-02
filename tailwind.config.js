@@ -4,18 +4,18 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'poppins': ['Poppins', 'sans-serif']
+        poppins: ["Poppins", "sans-serif"],
       },
       backgroundImage: {
-        'Herobackground': "url('/src/assets/images/HeroSection.gif')",
-        'Aboutbg': "url('/src/assets/images/aboutbg.png')",
-        'world': "url('/src/assets/images/giphy.webp')",
+        Herobackground: "url('/src/assets/images/HeroSection.gif')",
+        Aboutbg: "url('/src/assets/images/aboutbg.png')",
+        world: "url('/src/assets/images/giphy.webp')",
       },
-      colors:{
-        "neonblue":"#00FFFF"
-      }
-
+      colors: {
+        neonblue: "#00FFFF",
+        primary: "#2C225A",
+      },
     },
   },
   plugins: [],
-}
+};
